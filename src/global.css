@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: rgba(99, 102, 241, .4);
+  color: #fff;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #020617;
+  -webkit-font-smoothing: antialised;
+  text-rendering: optimizeLegibility;
+}
+
+.custom-cursor {
+  position: fixed;
+  top:0;
+  left: 0; 
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.cursor-text {
+  font-size: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: none;
+}
+
+/* Scrollbar Styling */
+
+::-webkit-scrollbar {
+  border-radius: 999px;
+  width: 8px;
+  background-color: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: #FFFFFF;
+}
+
+/* Entry Screen */
+
+.intro {
+  transition: 1s;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: 20px;
+  opacity: 0;
+}
+
+.logo.active {
+  opacity: 1;
+  bottom: 0;
+  transition: ease-in-out .5s;
+}
+
+.logo.fade {
+  bottom: 150px;
+  transition: ease-in-out .5s;
+}
+
+/* Infinite Scroll */
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 100%;
+  mask: linear-gradient(90deg, #0000, #000 5% 95%, #0000);
+  -webkit-mask: linear-gradient(90deg, #0000, #000 5% 95%, #0000);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul > li {
+  grid-area: 1/1;
+  background-origin: padding-box;
+}
+
+ul > li:nth-child(2) {
+  animation-delay: calc(-0.1428 * 40s);
+}
+
+ul > li:nth-child(3) {
+  animation-delay: calc(-0.2857 * 40s);
+}
+
+ul > li:nth-child(4) {
+  animation-delay: calc(-0.4285 * 40s);
+}
+
+ul > li:nth-child(5) {
+  animation-delay: calc(-0.5714 * 40s);
+}
+
+ul > li:nth-child(6) {
+  animation-delay: calc(-0.7142 * 40s);
+}
+
+ul > li:nth-child(7) {
+  animation-delay: calc(-0.8571 * 40s);
+}
+
+ul.alt li{
+  animation-direction: reverse;
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(131.82% 109.9% at 50% 10%,transparent 37.41%,#6366f1 69.27%,#fff 100%);
+}
