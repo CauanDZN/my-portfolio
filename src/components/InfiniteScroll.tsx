@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   Html5PlainIcon, Css3PlainIcon, JavascriptPlainIcon, ReactOriginalIcon, NextjsLineIcon, 
   KotlinPlainIcon, SwiftPlainIcon, TailwindcssPlainIcon,
@@ -9,7 +8,12 @@ import {
 
 import colors from 'tailwindcss/colors';
 
-const TechItem = ({ icon, text }) => (
+interface TechItemProps {
+  icon: React.ReactNode;
+  text: string;
+}
+
+const TechItem: React.FC<TechItemProps> = ({ icon, text }) => (
   <li className="animate-infiniteScroll">
     <div className="h-16 w-[95%] overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
       <div className={`flex h-16 items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 text-slate-300 transition ease-in-out hover:border-0 hover:bg-indigo-400 hover:bg-gradient-to-br hover:from-indigo-400 hover:to-indigo-600 hover:text-indigo-800`}>
