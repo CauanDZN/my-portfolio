@@ -40,10 +40,10 @@ export function Preloader() {
       <div className="absolute top-0 z-[-2] h-screen w-full bg-slate-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 
       <h1 className="logo-header text-zinc-100">
-        <span className="logo inline-flex  bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+        <span className="logo inline-flex text-zinc-400 bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
           Cauan
         </span>
-        <span className="logo ml-4 inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+        <span className="logo ml-4 inline-flex bg-gradient-to-r text-zinc-400 from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
           Victor
         </span>
       </h1>

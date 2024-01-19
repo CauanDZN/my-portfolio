@@ -2,7 +2,7 @@ import {
   Html5PlainIcon, Css3PlainIcon, JavascriptPlainIcon, ReactOriginalIcon, NextjsLineIcon, 
   KotlinPlainIcon, SwiftPlainIcon, TailwindcssPlainIcon,
   NodejsPlainIcon, JavaPlainIcon, AmazonwebservicesOriginalIcon, PostgresqlPlainIcon, 
-  DockerPlainIcon, FirebasePlainIcon, FlutterPlainIcon, 
+  DockerPlainIcon, FirebasePlainIcon, FlutterPlainIcon, DartPlainIcon,
   LaravelPlainIcon, MongodbPlainIcon, NestjsPlainIcon, PhpPlainIcon, PythonPlainIcon 
 } from 'react-devicons';
 
@@ -15,10 +15,10 @@ interface TechItemProps {
 
 const TechItem: React.FC<TechItemProps> = ({ icon, text }) => (
   <li className="animate-infiniteScroll">
-    <div className="h-16 w-[95%] overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
-      <div className={`flex h-16 items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 text-slate-300 transition ease-in-out hover:border-0 hover:bg-indigo-400 hover:bg-gradient-to-br hover:from-indigo-400 hover:to-indigo-600 hover:text-indigo-800`}>
+    <div className="desktop:h-16 mobile:h-8 w-[95%] overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
+      <div className={`flex desktop:h-16 mobile:h-8 items-center justify-center desktop:gap-2 mobile:gap-1 bg-gradient-to-b from-slate-900 to-slate-900/40 text-slate-300 transition ease-in-out hover:border-0 hover:bg-indigo-400 hover:bg-gradient-to-br hover:from-indigo-400 hover:to-indigo-600 hover:text-indigo-800`}>
         {icon}
-        <span className="select-none text-indigo-200">{text}</span>
+        <span className="select-none text-indigo-200 desktop:text-base mobile:text-[8px]">{text}</span>
       </div>
     </div>
   </li>
@@ -29,10 +29,10 @@ export function InfiniteScroll() {
     { icon: <Html5PlainIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "HTML" },
     { icon: <Css3PlainIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "CSS" },
     { icon: <JavascriptPlainIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "JavaScript" },
-    { icon: <ReactOriginalIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "ReactJS" },
-    { icon: <ReactOriginalIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "React Native" },
+    { icon: <ReactOriginalIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "React" },
     { icon: <NextjsLineIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "NextJS" },
     { icon: <TailwindcssPlainIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "TailwindCSS" },
+    { icon: <DartPlainIcon className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10" color={colors.indigo['300']} />, text: "Dart" },
   ];
 
   const techList2 = [

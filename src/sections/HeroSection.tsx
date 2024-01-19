@@ -20,7 +20,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative pt-4 flex h-full w-full flex-col justify-center overflow-hidden mobile:items-center mobile:px-4 mobile:pb-16 desktop:items-center desktop:px-10">
+    <section className="relative pt-8 flex h-full w-full flex-col justify-center overflow-hidden mobile:items-center mobile:px-4 mobile:pb-16 desktop:items-center desktop:px-10">
       <div className="absolute top-0 z-[-2] h-screen w-full bg-slate-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <img src={bgStars} alt="" className="absolute top-0 h-full w-full" />
       <div className="flex h-full items-center justify-center mobile:gap-8 desktop:gap-6">
@@ -34,7 +34,7 @@ export function HeroSection() {
           />
           <AnimatedHeading className="mobile:text-center desktop:text-center">
             <span className="">UI Designer</span> &<br />
-            <span className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            <span className="inline-flex bg-gradient-to-r text-zinc-400 desktop:from-neutral-900 desktop:via-slate-500 desktop:to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent desktop:dark:from-neutral-100 desktop:dark:via-slate-400 dark:to-neutral-400">
               Fullstack Developer
             </span>
           </AnimatedHeading>

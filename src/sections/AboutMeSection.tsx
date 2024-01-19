@@ -24,7 +24,7 @@ export function AboutMeSection() {
         className="sticky rounded-2xl desktop:top-10"
       />
       <div className="flex w-full flex-col items-start justify-start mobile:mt-10 mobile:gap-6">
-        <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-5xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+        <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:text-white to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-5xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
           Sobre mim
         </h2>
         <p
@@ -101,8 +101,8 @@ export function AboutMeSection() {
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
             </div>
             <div className="flex flex-col gap-14">
-              <h2 className="mt-3 inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
-                Fevereiro de 2024
+              <h2 className="mt-3 inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:-mb-8 mobile:text-white to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+                Janeiro de 2024 - Atual
               </h2>
               <div>
                 <h2 className="text-xl leading-tight text-slate-100">
@@ -112,7 +112,7 @@ export function AboutMeSection() {
                   Digital College Brasil
                 </p>
               </div>
-              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:-mt-12 desktop:-mt-4 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:text-white mobile:-mb-8 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent desktop:mt-4 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
                 Agosto de 2023 - Novembro de 2023
               </h2>
               <div>
@@ -123,45 +123,45 @@ export function AboutMeSection() {
                   Normalabs
                 </p>
               </div>
-              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:-mt-16 desktop:-mt-3 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
-                Fevereiro de 2024
+              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:mt-3 mobile:-mb-8 mobile:text-white to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent desktop:mt-4 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+                2024 - Em andamento
               </h2>
               <div>
                 <h1 className="text-xl leading-tight text-zinc-100">
-                  Bacharel em Ciência da Computação
+                  Bacharelado em Ciência da Computação
                 </h1>
                 <p className="mt-2 text-slate-400 mobile:pb-10 mobile:text-base desktop:text-lg">
                   Faculdade Descomplica
                 </p>
               </div>
-              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:-mt-16 desktop:-mt-4 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:-mt-4 mobile:-mb-8 mobile:text-white to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent desktop:mt-5 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
                 Junho de 2023 - Junho de 2024
               </h2>
               <div>
                 <h1 className="text-xl leading-tight text-zinc-100">
-                  Desenvolvimento Fullstack
+                  Desenvolvimento Full-stack
                 </h1>
                 <p className="mt-2 text-slate-400 mobile:pb-10 mobile:text-base desktop:text-lg">
                   Digital College Brasil
                 </p>
               </div>
-              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:-mt-16 desktop:-mt-3 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
-                Janeiro de 2022
+              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:mt-1 mobile:-mb-8 mobile:text-white desktop:mt-4 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+                2022 - Atual
               </h2>
               <div>
                 <h1 className="text-xl leading-tight text-zinc-100">
-                  Estudante em desenvolvimento Full-stack
+                  Trilha Ignite
                 </h1>
                 <p className="mt-2 text-slate-400 mobile:pb-10 mobile:text-base desktop:text-lg">
                   Rocketseat
                 </p>
               </div>
-              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:-mt-16 desktop:-mt-3 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
-                Janeiro de 2021 - Dezembro de 2023
+              <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 mobile:text-white to-neutral-500 bg-[200%_auto] bg-clip-text text-2xl font-semibold leading-tight tracking-tighter text-transparent mobile:mt-6 mobile:-mb-8 desktop:mt-5 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+                2021 - 2023
               </h2>
               <div>
                 <h1 className="text-xl leading-tight text-zinc-100">
-                  Técnico em Redes de Computadores
+                  Ensino Médio + Técnico em Redes de Computadores
                 </h1>
                 <p className="mt-2 text-slate-400 mobile:pb-10 mobile:text-base desktop:text-lg">
                   EEEP Leonel de Moura Brizola

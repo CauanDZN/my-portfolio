@@ -25,7 +25,7 @@ export function ProjectsSection() {
           data-aos="fade-up"
           data-aos-duration="700"
           data-aos-once="true"
-          className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-5xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
+          className="inline-flex bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-5xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
         >
           Projetos Recentes
         </h2>
@@ -70,7 +70,7 @@ export function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            <h2 className="inline-flex bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
               Portfólio - Pedro Yuri
             </h2>
             <p className=" text-left text-lg text-slate-400">
@@ -158,7 +158,7 @@ export function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            <h2 className="inline-flex bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
               Habits
             </h2>
             <p className=" text-left text-lg text-slate-400">
@@ -215,7 +215,7 @@ export function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            <h2 className="inline-flex bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
               Site da EEEP Leonel de Moura Brizola
             </h2>
             <p className=" text-left text-lg text-slate-400">
@@ -278,7 +278,7 @@ export function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            <h2 className="inline-flex bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
               Dashgo
             </h2>
             <p className=" text-left text-lg text-slate-400">

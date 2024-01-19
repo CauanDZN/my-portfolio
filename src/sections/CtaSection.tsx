@@ -23,7 +23,7 @@ export function CtaSection() {
           data-aos="fade-up"
           data-aos-duration="700"
           data-aos-once="true"
-          className="bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center font-semibold leading-10 tracking-tighter text-transparent mobile:text-3xl desktop:max-w-[40%] desktop:text-5xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
+          className="bg-gradient-to-r text-white from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center font-semibold leading-10 tracking-tighter text-transparent mobile:text-3xl desktop:max-w-[40%] desktop:text-5xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
         >
           Sinta-se a vontade para entrar em contato.
         </h2>
